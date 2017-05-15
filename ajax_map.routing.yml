@@ -1,0 +1,13 @@
+ajax_map.mainpage:
+    path: '/ajax-map'
+    defaults:
+        _controller: '\Drupal\ajax_map\Controller\AjaxMapController::mainPage'
+    requirements:
+        _permission: 'view content'
+
+ajax_map.testpage:
+    path: '/ajax-map/test'
+    defaults:
+        _controller: '\Drupal\ajax_map\Controller\AjaxMapController::themeAction'
+    requirements:
+        _permission: 'view content'

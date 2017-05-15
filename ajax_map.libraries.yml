@@ -1,0 +1,14 @@
+google.maps:
+  version: 3
+  js:
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyCHArm25zVfSdli0MpPGqkgSXRfMmF7amQ: { type: external, minified: true }
+
+ajax_map:
+  version: VERSION
+  js:
+    js/ajax_map.js: {}
+    js/as.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - ajax_map/google.maps

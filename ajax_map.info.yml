@@ -1,0 +1,5 @@
+name: Custom Ajax Map
+type: module
+description: 'Can display Google Map by entered information without refreshing page.'
+core: 8.x
+package: custom
